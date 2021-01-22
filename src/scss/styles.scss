@@ -1,0 +1,30 @@
+@import 'variables/variables';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: $black;
+    color: $white;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    h1{
+        color: white;
+    }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px $white inset !important;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: $black !important;
+}
